@@ -1,0 +1,85 @@
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:100vh 60vh;
+        .seccionPrincipal { 
+            background-color: red;
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            background-image: url(../../assets/img/reunion-para-slider.jpg);
+            background-size: cover;
+            text-align: center;
+            box-shadow: $box-shadow;
+                .title {
+                    font-family: $font-family-nav;
+                    background: $bg-transparente;
+                    display: inline-block;
+                    padding: 20px;
+                    border-radius: $radius;
+                    margin-top: 18vh;
+                    box-shadow: $box-shadow;
+                    h1 {
+                        font-size: 4rem;
+                        color: $color-fuente;
+                    }
+                    h2 {
+                        font-size: 2.8rem;
+                        color: rgb(187, 134, 69);
+                    }
+                    h3 {
+                        font-size: 1.5rem;
+                        line-height: 2.8;
+                    }
+                }
+                .nosotros {
+                    background: $bg-transparente;
+                    font-family: $font-family-nav;
+                    font-size: 1.2rem;
+                    padding: 30px;
+                    margin: 100px;
+                    border-radius: $radius;
+                    box-shadow: $box-shadow;
+                }
+    } 
+        .cards {
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+            display: flex;
+            justify-content: space-around;
+            margin: 50px;
+                .cards__one {
+                    width: 20%;
+                    height: 100%;
+                    border-radius: 20px;
+                    box-shadow: $box-shadow;
+                    background-image: url(../../assets/img/charlando-3.jpg);
+                    background-size: cover;
+                }
+                .cards__two {
+                    width: 20%;
+                    height: 100%;
+                    border-radius: 20px;
+                    box-shadow: $box-shadow;
+                    background-image: url(../../assets/img/meeting.png);
+                    background-size: cover;
+                }
+                .cards__three {
+                    width: 20%;
+                    height: 100%;
+                    border-radius: 20px;
+                    box-shadow: $box-shadow;
+                    background-image: url(../../assets/img/reunion-1.jpg);
+                    background-size: cover;
+                }
+                .cards__four {
+                    width: 20%;
+                    height: 100%;
+                    border-radius: $radius;
+                    box-shadow: $box-shadow;
+                    background-image: url(../../assets/img/reunion-para-slider.jpg);
+                    background-size: cover;
+                }
+        }
+
+}
