@@ -50,7 +50,7 @@ main {
 main .seccionPrincipal {
   grid-column: 1/2;
   grid-row: 1/2;
-  background-image: url(../../assets/img/reunion-para-slider.jpg);
+  background-image: url(../assets/img/reunion-para-slider.jpg);
   background-size: cover;
   text-align: center;
   box-shadow: 0 0 20px 10px rgba(68, 68, 68, 0.6);
@@ -97,7 +97,7 @@ main .cards .cards__one {
   height: 100%;
   border-radius: 20px;
   box-shadow: 0 0 20px 10px rgba(68, 68, 68, 0.6);
-  background-image: url(../../assets/img/charlando-3.jpg);
+  background-image: url(../assets/img/charlando-3.jpg);
   background-size: cover;
 }
 main .cards .cards__two {
@@ -105,7 +105,7 @@ main .cards .cards__two {
   height: 100%;
   border-radius: 20px;
   box-shadow: 0 0 20px 10px rgba(68, 68, 68, 0.6);
-  background-image: url(../../assets/img/meeting.png);
+  background-image: url(../assets/img/meeting.png);
   background-size: cover;
 }
 main .cards .cards__three {
@@ -113,7 +113,7 @@ main .cards .cards__three {
   height: 100%;
   border-radius: 20px;
   box-shadow: 0 0 20px 10px rgba(68, 68, 68, 0.6);
-  background-image: url(../../assets/img/reunion-1.jpg);
+  background-image: url(../assets/img/reunion-1.jpg);
   background-size: cover;
 }
 main .cards .cards__four {
@@ -121,7 +121,7 @@ main .cards .cards__four {
   height: 100%;
   border-radius: 20px;
   box-shadow: 0 0 20px 10px rgba(68, 68, 68, 0.6);
-  background-image: url(../../assets/img/reunion-para-slider.jpg);
+  background-image: url(../assets/img/reunion-para-slider.jpg);
   background-size: cover;
 }
 

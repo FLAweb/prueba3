@@ -6,7 +6,7 @@ main {
         .seccionPrincipal { 
             grid-column: 1 / 2;
             grid-row: 1 / 2;
-            background-image: url(../../assets/img/reunion-para-slider.jpg);
+            background-image: url(../assets/img/reunion-para-slider.jpg);
             background-size: cover;
             text-align: center;
             box-shadow: $box-shadow;
@@ -52,7 +52,7 @@ main {
                     height: 100%;
                     border-radius: 20px;
                     box-shadow: $box-shadow;
-                    background-image: url(../../assets/img/charlando-3.jpg);
+                    background-image: url(../assets/img/charlando-3.jpg);
                     background-size: cover;
                 }
                 .cards__two {
@@ -60,7 +60,7 @@ main {
                     height: 100%;
                     border-radius: 20px;
                     box-shadow: $box-shadow;
-                    background-image: url(../../assets/img/meeting.png);
+                    background-image: url(../assets/img/meeting.png);
                     background-size: cover;
                 }
                 .cards__three {
@@ -68,7 +68,7 @@ main {
                     height: 100%;
                     border-radius: 20px;
                     box-shadow: $box-shadow;
-                    background-image: url(../../assets/img/reunion-1.jpg);
+                    background-image: url(../assets/img/reunion-1.jpg);
                     background-size: cover;
                 }
                 .cards__four {
@@ -76,7 +76,7 @@ main {
                     height: 100%;
                     border-radius: $radius;
                     box-shadow: $box-shadow;
-                    background-image: url(../../assets/img/reunion-para-slider.jpg);
+                    background-image: url(../assets/img/reunion-para-slider.jpg);
                     background-size: cover;
                 }
         }
